@@ -47,7 +47,6 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 nav ul li {
@@ -164,11 +163,12 @@ footer {
 /* Responsive styling */
 @media (max-width: 768px) {
   nav ul li {
-    margin-right: 10px; /* Reduce margin between nav items */
+    margin-right: 5px; /* Reduce margin between nav items */
   }
 
   nav ul li a {
-    padding: 8px 10px; /* Adjust padding for nav items */
+    padding: 5px 8px; /* Adjust padding for nav items */
+    font-size: 0.8rem; /* Reduce font size */
   }
 
   .hero h1 {
