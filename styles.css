@@ -18,12 +18,6 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
- .full-width {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    /* Additional styles as needed */
-  }
 
 .hero {
   background-image: url('hero.jpg'); /* Replace with your actual hero image path */
