@@ -34,7 +34,7 @@ body {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7); /* Dark gray with 70% opacity */
   color: #fff;
   padding: 10px 0;
   position: sticky; /* Sticky position */
@@ -47,6 +47,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 nav ul li {
@@ -158,4 +159,23 @@ footer {
   height: 100%;
   background-color: #fff;
   cursor: ew-resize;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  nav ul li {
+    margin-right: 10px; /* Reduce margin between nav items */
+  }
+
+  nav ul li a {
+    padding: 8px 10px; /* Adjust padding for nav items */
+  }
+
+  .hero h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
 }
