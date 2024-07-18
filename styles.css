@@ -31,6 +31,7 @@ body {
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  width: 100%; /* Make the h1 span full width */
 }
 
 header {
@@ -121,45 +122,6 @@ footer {
   padding: 10px 0;
 }
 
-/* Slider Styles */
-.before-after {
-  position: relative;
-  width: 80%;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.slider {
-  position: relative;
-}
-
-.image-container {
-  position: relative;
-}
-
-.image-container img {
-  display: block;
-  width: 100%;
-}
-
-.after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  overflow: hidden;
-}
-
-.slider-handle {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 4px;
-  height: 100%;
-  background-color: #fff;
-  cursor: ew-resize;
-}
-
 /* Responsive styling */
 @media (max-width: 768px) {
   nav ul li {
@@ -175,21 +137,7 @@ footer {
     font-size: 2rem; /* Adjust font size for smaller screens */
   }
 
-  .hero h2 {
-    font-size: 1.5rem; /* Add this for consistency */
-  }
-
-  .hero p {
-    font-size: 1rem; /* Add this for consistency */
-  }
-
   .container {
     width: 90%; /* Adjust container width for smaller screens */
-  }
-
-  header h1 {
-    font-size: 1.5rem; /* Reduce font size for header title */
-    text-align: center; /* Ensure the header title is centered */
-    padding: 10px 0; /* Adjust padding for header title */
   }
 }
